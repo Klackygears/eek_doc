@@ -1,0 +1,17 @@
+# eek!
+
+![eek](https://i.imgur.com/34O3xKW.jpg)
+
+The eek! Is a 36 key per key RGB keyboard with a 90 degree split layout suited for travel and typing close to the body. It uses a Pro Micro or an Elite C and can be soldered low profile using castilated pads. The keyboard is compatible with MX, Alps, and Choc style switches. The PCB can be flipped so that the silk is on top and the USB plugin can face to the right or left by uncommenting "OPT_DEFS += -DFLIPPED" in the rules.mk file. The per key RGB LEDs used in the build are the SK6812 Mini E (these can also be flipped). The eek! can be used without a case if you choose for a very low profile keyboard. 
+
+![eek_bat](https://i.imgur.com/YrOqmft.jpeg)
+
+Keyboard Maintainer: [klackygears](https://github.com/klackygears)  
+Hardware Supported: The eek! PCBs, Pro Micro supported, Low Profile Elite-C supported 
+Hardware Availability: [Case Data](https://github.com/klackygears/eek_case)  
+
+Make example for this keyboard (after setting up your build environment):
+
+    make eek:default
+
+See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
