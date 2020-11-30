@@ -1,4 +1,4 @@
-# eek
+# eek!
 
 ![eek](https://i.imgur.com/34O3xKW.jpg)
 
@@ -23,7 +23,7 @@ The footprints for the diodes have a small arrow indicating whitch direction the
 
 The LED order is below. Like Christmas lights, if you have a problem with one of the LEDs all of the LEDs after will not work.
 
-![LED_order](https://raw.githubusercontent.com/Klackygears/eek_case/main/Photos/footprint_diode.jpg)
+![LED_order](https://raw.githubusercontent.com/Klackygears/eek_case/main/Photos/LED_order.JPG)
 
 
 The SK6812 MINI E (be sure to get the **"E"** type) have one leg that has a clipped angle. That angled leg should be placed on the pad with the outline.
@@ -49,7 +49,11 @@ The Pro Micro (or clone) should be soldered to the pcb on the side with the gear
 
 ## Flashing the eek!
 
-Once you have your build environment set up using the guide in the **[QMK Documentation](https://docs.qmk.fm/)** I recommend flashing the eek! with the default keymap or the ledtest keymap to make sure that everything is soldered correctly. QMK firmware github is [here](https://github.com/qmk/qmk_firmware).
+Once you have your build environment set up using the guide in the **[QMK Documentation](https://docs.qmk.fm/)** I recommend flashing the eek! with the default keymap or the ledtest keymap to make sure that everything is soldered correctly. 
+
+QMK firmware github is [here](https://github.com/qmk/qmk_firmware).
+
+QMK eek specific will be [here](https://github.com/qmk/qmk_firmware).
 
 If you made the eek! with the bat silk side down use the command:
 
