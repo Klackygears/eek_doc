@@ -37,12 +37,24 @@ The eek! is compatible with MX, ALPs, and Choc style switches. In the first imag
 ![switchtypes_footprint](https://raw.githubusercontent.com/Klackygears/eek_case/main/Photos/footprint_switch_types.jpg)
 
 
-The Pro Micro (or clone) should be soldered to the pcb on the side with the gear logo as seen in the picture below. If you are using a variant with castilated holes, the pads on eek! support soldering the Pro Micro on that way for a low profile build. **Regardless if you decide to have the pcb flipped or not, the pro micro should be installed the same way.** 
+The Pro Micro (or clone) should be soldered to the pcb on the side with the gear logo as seen in the picture below. If you are using a variant with castilated holes, the pads on eek! support soldering the Pro Micro on that way for a low profile build. **_Regardless if you decide to have the pcb flipped or not, the pro micro should be installed the same way._** 
 
 **I recommend flashing firmware on the pro micro before soldering to make sure that it's working properly.**
 
-![ProMicro_orientation](https://raw.githubusercontent.com/Klackygears/eek_case/main/Photos/footprint_switch.jpg)
+![ProMicro_orientation](https://raw.githubusercontent.com/Klackygears/eek_case/main/Photos/ProMicro_placement2.jpg)
 
+
+## Flashing the eek! ##
+
+Once you have your build environment set up using the guide in the **[QMK Documentation](https://docs.qmk.fm/)** I recommend flashing the eek! with the default keymap or the ledtest keymap to make sure that everything is soldered correctly. QMK firmware github is [here](https://github.com/qmk/qmk_firmware).
+
+If you made the eek! with the bat silk side down use the command:
+
+``make eek:default``
+
+If you made the eek! with the bat silk side up use the command:
+
+``make eek/silk_up:default``
 
 
 Disclaimer: Though it may be tempting, eek! is not a snack.
