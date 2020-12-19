@@ -63,5 +63,7 @@ If you made the eek! with the bat silk side up use the command:
 
 ``make eek/silk_up:default``
 
+Additionally there is the possibilty of using the eek! wireless. If you have a nice!nano or another ZMK firmware compatible board, you can use eek! as shield. 
+A basic keymap has been implemented. It is not recommended to use LEDs with a bluetooth board as they draw power, even when they're not on and limit the battery life drastically. The shield files can be found [here](https://github.com/MangoIV/zmk). For more information on the zmk firmware refer to their [website](https://zmkfirmware.dev/)
 
 Disclaimer: Though it may be tempting, eek! is not a snack.
