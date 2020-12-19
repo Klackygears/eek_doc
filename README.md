@@ -7,7 +7,7 @@ The **eek!** Is a 36 key per key RGB keyboard with a 90 degree split layout suit
 
 In the **Case_Files** folder, you will find the .svg and .dxf files to make your own case if you like.
 
-In the **QMK_Files** folder, I've placed the needed qmk keyboard folder in case you would like to program the keyboard before the firmware is pulled into the main branch. Alternatively, here is a link to my eek! branch [eek! QMK Firmware branch](https://github.com/Klackygears/qmk_firmware/tree/eek_qmk). Both have a basic keymap and a LED tesk keymap to make it easier to test your led soldering.
+In the **QMK_Files** folder, I've placed the needed qmk keyboard folder. Alternatively you will find the eek! firmware on the main branch of QMK: [QMK Firmware](https://github.com/qmk/qmk_firmware). Both have a basic keymap and a LED tesk keymap to make it easier to test your led soldering.
 
 
 ## Assembling the eek!
