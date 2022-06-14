@@ -1,0 +1,17 @@
+(footprint "StripLED" (version 20210623) (generator pcbnew) (layer "F.Cu")
+  (tedit 5A0FFE9D)
+  (fp_text reference "J_L1" (at 0 -2.54) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 247ba64d-7ffd-46b7-a450-97c5dace7f5d)
+  )
+  (fp_text value "LED_Strip" (at 0 7.62) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7398c884-483e-4856-981d-a8b0cc16569f)
+  )
+  (pad "1" smd rect (at 0 5.08) (size 1.524 1.524) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 9dc4926a-6863-4831-aa64-a5b4af4650fd))
+  (pad "1" smd rect (at 0 0) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd00f6d1-ed7b-4d9c-97c4-b5bcd47624a2))
+  (pad "2" smd rect (at 0 2.54) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1ab00f08-232b-4c5c-ae0a-74ccd638999e))
+  (pad "2" smd rect (at 0 2.54) (size 1.524 1.524) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp d9f9f412-ba8f-47f6-a7f0-213123ef2234))
+  (pad "3" smd rect (at 0 5.08) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 22c8d9a7-cd52-44e1-a3ed-5d8b931ca3da))
+  (pad "3" smd rect (at 0 0) (size 1.524 1.524) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp b85e1348-1b81-4c2f-b9da-d50195d63f59))
+)
